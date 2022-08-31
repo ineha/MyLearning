@@ -1,0 +1,13 @@
+What is maven?
+
+maven is a powerful project management tool that is based on POM(project object model).
+
+It is used for projects build, dependency and documentation. It simplifies the build process like ANT. but it is too much advanced than ANT.
+
+Problem without maven.
+    creating the right project structure.
+    Adding set of jars in each project.
+    Building and deploying the project.
+
+what maven provides us?
+    builds, documentation, dependecnies, releases, much more

@@ -1,0 +1,73 @@
+What is Database?
+A database is a software that stores data in organized manner. So it become easy to manage the data.
+
+Data Variables(RAM)
+
+
+
+
+
+
+
+
+
+            Our program can store data in DB permanently.
+
+For eg. Suppose we are going in shop to buy car, and he is saying we store our car in godam(Database), here only we show our models(temporary)
+
+What is MySQL?
+Popular database software use to handle data in relation manner.(In the form of Tables)
+
+
+
+
+
+
+HOW MySQL WORKS?
+
+                                                                  
+
+
+
+
+
+
+Queries -->
+1.Show databases;
+2.Create database [db_name] 
+3 .Use [db_name]
+4 .Create table [table_name] (col1,col2,col3);
+5 .Eq user -  create table user(id int(11) primary key, name varchar(100) not null, city varchar(60));
+6 .Desc [tb_name];
+7 .Alter table [old table name] rename to [new table name];
+8 .  truncate table student; ---> only data will be deleted not table
+9 . drop table [table_name] ---> data aand table both will be deleted
+10 .  insert into student (id,name,city) values(12,'neha','kanpur');
+11. insert into student values(12,'neha','kanpur');
+12.Primary key - > unique rhega id
+13. alter table student add country varchar(50);
+14.Update [table_name] set col=value, col=value where col=val (agar where ni lgayenge to pure columns update ho jayenge)
+15. delete from [table_name] where col=value(agar where ni lgayenge to pure columns update ho jayenge).
+
+
+CLAUSES
+
+Where: 
+--->  select name as "username", city as "CITYNAME" from student;---> alias krn k liye--> thodi der k liye us col ka name change kr diya
+
+ select distinct(col) from [table_name]; ----> distinct vlues
+
+Between: 
+ select *from student where id between 12 and 15(12 and 15 will be included);
+
+IN:
+ select *from student where id=12 or id=14 or id=15; OR  select *from student where id in(12,14,15);
+
+Limit:
+Limit mtlb kitne select krne h aur offset mtlb kitne chodne h
+select *from student limit 2 offset 2;
+
+Order by:
+
+ select *from student order by name; ->>> by default ascending
+ select *from student order by name  desc;
