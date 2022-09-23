@@ -1,0 +1,14 @@
+Introduction to Multi threading -
+    1. Multithreading in Java is a process of executing maultiple threads simultaneously.
+    2. A thread is a light-weighted sub-process, the smallest unit of processing.
+    3. process k andar bhut sare threads hote h,--> main, t1, t2....
+
+Creating Thread in Java
+    1. Using Runnable interface  ---> no problem of multiple inheritance
+        Mythread t = new MyThread();
+        Thread thread = new Thread(t);
+        thread.start();
+
+    2. Using Thread (class Thread extends Runnable) --> ism multiple inheritance k problem a skti h
+        Mythread t = new MyThread();
+        t.start();

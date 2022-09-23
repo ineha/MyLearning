@@ -1,0 +1,29 @@
+Lambda is anonymous Function:
+    No name
+    No modifier
+    No return type
+
+   public void method()
+    {                                    ->                              ()->
+                                         ->                            {
+     sop("test")                                                                   sop("test")
+     }                                                                }
+
+
+ Benefits Of Lambda
+    Reduces the lines of code
+    Sequential and parallel execution support by passing behaviour as an argument in methods
+    To call APIs very effectively
+    To write more Redeable, maintainble and concise code
+
+Important Rules of Lambda
+    If the body of Lambda Expression contain only one statement then curly braces are optional
+    Java compiler also infer the type of variable passed, hence type is optional
+
+------------------------------------------------------------------------------------------------------------------------
+
+Functional Interface
+    If the interface contains only one abstract methods then it is functional interface
+    ex- runnable, callable, comparable
+    To call lambda we require functional interface
+    Lambda is used to implement functional interface in very simple and short manner.
