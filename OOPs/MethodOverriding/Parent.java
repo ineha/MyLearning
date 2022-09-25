@@ -32,7 +32,7 @@ class B extends A{
     }
 
     //overriding is a process when child class is not satisfied with the method of parent class then child class
-    //overrides the method and redeifine the bofy of method.
+    //overrides the method and redeifine the body of method.
  }
  class start{
      public static void main(String[] args) {

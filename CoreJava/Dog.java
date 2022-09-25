@@ -3,6 +3,7 @@ package CoreJava;
 import CoreJava.Animal;
 
 public class Dog extends Animal {
+   public static String college;
   int x=4;
     //this and super must be the fierst line in constructor
     public Dog() {

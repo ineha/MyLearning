@@ -1,7 +1,5 @@
 package CoreJava;
 
-import CoreJava.Dog;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -28,24 +26,39 @@ public class learn {
         System.out.println(stack.isEmpty());
 
         System.out.println("----------------------------------------------------------");
-        Student student1 = new Student();
-        student1.name="ne";
-        student1.i=20;
-        student1.details();
-        student1.show();
-        System.out.println("----------------------------------------------------------");
-        Student student2=new Student();
-        student2.name="Neharika";
-        student2.i=30;
-        student2.details();
-        student2.show();
+//        Student student1 = new Student(s);
+//        student1.name="ne";
+//        student1.i=20;
+//        student1.details();
+//        student1.show();
+//        System.out.println("----------------------------------------------------------");
+//        //Student student2=new Student(s);
+//        student2.name="Neharika";
+//        student2.i=30;
+//        student2.details();
+//        student2.show();
         System.out.println("----------------------------------------------------------");
         Dog dog=new Dog();
         dog.speak();
         System.out.println("----------------------------------------------------------");
         String hello ="hello";
         System.out.println(hello.substring(1,4));
+        System.out.println(s());
+        Animal.a();
+        Animal.a(2);
+    }
 
+    public static String s(){
+        try{
+            System.out.println("hello");
+            return "d";
+
+        }
+
+        finally {
+            System.out.println("hi");
+            return "k";
+        }
 
     }
 }
