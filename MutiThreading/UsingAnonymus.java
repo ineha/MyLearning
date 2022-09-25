@@ -17,5 +17,12 @@ public class UsingAnonymus {
         Thread thread=new Thread(at1);
         thread.start();
 
+        System.out.println("using functional interface");
+        //Runnable is a fucntional interface and it will call its abstract method run
+        Runnable t=()->{
+            System.out.println("calling run method");
+        };
+        Thread thread2=new Thread(t);
+        thread2.start();
     }
 }
