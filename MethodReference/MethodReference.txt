@@ -1,0 +1,14 @@
+Lambda expressions can be used to call an existing method. Java 8 provides another feature called
+method reference that provides a clearer alternative to refer to the existing method by name.
+
+Method reference are special type of lambda expression.
+They are often used to create simple lambda expressions by referencing existing methods.
+
+Each time when you are using lambda expression to just referring a method you can replace your lambda expression with method reference.
+
+Method refernece operator ->> ::
+
+Types of Method References->
+1. Static method
+2. Instance methods of particular object
+3. Constructor

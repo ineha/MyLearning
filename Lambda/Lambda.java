@@ -1,5 +1,7 @@
 package Lambda;
 
+import java.io.Serializable;
+
 public class Lambda {
     public static void main(String[] args) {
         System.out.println("My app started");
@@ -14,5 +16,6 @@ public class Lambda {
         l.sayHello(10);
         SumInter s=(a,b)->a+b;
         System.out.println(s.sum(2,4));
+
     }
 }

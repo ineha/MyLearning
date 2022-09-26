@@ -12,3 +12,9 @@ Creating Thread in Java
     2. Using Thread (class Thread extends Runnable) --> ism multiple inheritance k problem a skti h
         Mythread t = new MyThread();
         t.start();
+
+-----------------------------------------------------------------------------------------------------------
+
+Synchronization
+Controlling accessbility of multiple threads of a particular resource
+by using synchronized method

@@ -1,0 +1,44 @@
+unexpected event that occurs in the program and disturbs the normal flow of program is called exceptions.
+And to handle this disturbance by any alternative way we use exceptional handling so that our program will not break.
+
+---------------------------------------------------------------------------------------------------------------
+                                        Exception Heirerchy
+                                              Object
+                                                |
+                                             Throwable
+                    ----------------------------|----------------------------------------------
+                    |                                                                         |
+                Exception                                                                   Error(because of lack of system error)
+                (program)
+                Recoverable                                                                      |
+-------------------|------------------------------------------------------------    ----------------------------------
+   |               |           |           |       |                                |                                 |
+
+ ClassNot     NoSuchMethod  IOException   SQL     Runtime                         VirtualMachine               Linkage Error
+ FoundException              |EOF                   |Arithematic                    |stackOverFlow              |ClassFormat
+                             |FileNotFound          |NullPointer                    |OutOfMemoryError           |NoClassDef
+                             |Interrupted           |IndexOutOfBound
+                                                         |ArrayIndexOutOFBound
+                                                         |StringIndexOutOf
+                                                    |IllegalArgument
+                                               |
+                                              |                                                                                |
+ --------------------------------------------|---------------------------------------------------------------------------------|
+    Checked/CompileTime                      |   unchecked/RunTime
+
+
+ ---------------------------------------------------------------------------------------------------------------------------
+ //Exceptional always occurs at run time
+  Checked/CompileTime ----> jo compiler check kr skta h
+
+  unchecked/RunTime-----> jo compiler check nhi kr skta h
+
+ ----------------------------------------------------------------------------------------------------------------
+ whenever there is an exception, the method in which exception occurs will create an object will store three things:
+ 1. exception name
+ 2. description
+ 3. Stack trace
+
+ ye object dega JVM ko then jvm dekehga kya hm exception handle kr rhe h gr ni kr rhe to eo default handler ko de dega aur wo print kra dega
+ aur default exceptional handler m jane se phle jvm apk program ko abnormally terminate kra dega.
+ and agr hmko handle krana h to hm log kr skte h.

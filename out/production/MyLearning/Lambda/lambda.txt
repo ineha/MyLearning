@@ -1,3 +1,6 @@
+Lambda expression in itself is an anonymous method i.e. a method with no name which is used to provide
+implementation of the method defined by a functional interface.
+
 Lambda is anonymous Function:
     No name
     No modifier
@@ -27,3 +30,9 @@ Functional Interface
     ex- runnable, callable, comparable
     To call lambda we require functional interface
     Lambda is used to implement functional interface in very simple and short manner.
+
+Predicate-
+Predicate is a predefined Functional Interface.
+the only abstract method of Predicate is
+  public boolean Test(T t)
+whenver we want to check some boolean condition we use predicate
