@@ -1,6 +1,8 @@
 package Lambda;
 
 import java.io.Serializable;
+import java.util.List;
+import java.util.stream.Collectors;
 
 public class Lambda {
     public static void main(String[] args) {
@@ -16,6 +18,7 @@ public class Lambda {
         l.sayHello(10);
         SumInter s=(a,b)->a+b;
         System.out.println(s.sum(2,4));
+
 
     }
 }

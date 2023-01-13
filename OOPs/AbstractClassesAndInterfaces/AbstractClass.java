@@ -2,7 +2,7 @@ package OOPs.AbstractClassesAndInterfaces;
 
 public abstract class AbstractClass {
 
-    //abstract class can have normam method
+    //abstract class can have normal method
     public void cal(){
         System.out.println("calculating Results");
     }

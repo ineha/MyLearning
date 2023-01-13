@@ -13,12 +13,12 @@ public class Throw {
             }
         }
         catch (YoungerAgeException e){
-            e.printStackTrace();
-        }
+        e.printStackTrace();
+    }
         System.out.println("after exception");
 
     }
-    public static void divide(){
+//    public static void divide(){
 //        try {
 //            int b = 10;
 //            int c = 0;
@@ -30,7 +30,7 @@ public class Throw {
 //        }
 
 
-    }
+//    }
 }
 
 

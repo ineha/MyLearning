@@ -13,6 +13,7 @@ public class CollectionFramework {
         names.add("rani");
         names.remove("rani");
         names.remove(0);
+        Collections.sort(names);
         System.out.println(names);
         System.out.println(names.get(0).length());
         System.out.println(names.size());
@@ -42,7 +43,7 @@ public class CollectionFramework {
         set.add(23);
         System.out.println(set);
         //sort
-        System.out.println();
+        System.out.println("Tree SET");
 
         //for sorted set
         //order is not preserved here
@@ -61,7 +62,7 @@ public class CollectionFramework {
             StringBuffer str=new StringBuffer(s);
             System.out.println(str.reverse());
         }
-
+    names.forEach(n-> System.out.println(n));
         System.out.println("using Iterator on list");
         //extracting iterator object
         //this one is only for forward traversing

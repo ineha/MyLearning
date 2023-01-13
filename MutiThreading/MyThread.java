@@ -1,6 +1,6 @@
 package MutiThreading;
 //creating our thread using Runnable Inteeface
-public class MyThread implements Runnable{
+public class MyThread implements Runnable {
 
     //task for thread..
     public void run(){
