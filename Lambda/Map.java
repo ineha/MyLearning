@@ -31,7 +31,6 @@ public class Map {
 //            System.out.println(entry.getKey()+" "+entry.getValue());
 //        }
         map.entrySet().stream().sorted(java.util.Map.Entry.comparingByKey()).forEach(System.out::println);
-
         //how to sort map using custom data type
         HashMap<Student, Integer>customMap=new HashMap<>();
         customMap.put(s1,10);
@@ -60,6 +59,5 @@ public class Map {
         })).forEach(System.out::println);
         System.out.println("Sort By Value");
         customMap.entrySet().stream().sorted(java.util.Map.Entry.comparingByValue()).forEach(System.out::println);
-
     }
 }

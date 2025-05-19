@@ -1,0 +1,19 @@
+design pattern is well proved solution of commonly occurring problems in software design.
+
+every developer has its own way to solve the problem for single problem and it is more complex to understand later..so we
+have to come up for a particular design pattern. that's why need design pattern.
+Categorization of design patter:
+1. Creational Design Pattern(based on object creation)
+    Singleton -> only one object is created
+    Builder
+    Factory -> when there is super class and multiple child classes and you want to get object of child class
+2. Structural Design pattern
+    Proxy
+    Adapter
+3. Behavioural Design pattern
+
+IteratorDesign pattern -> suppose you are maintaing list of users in your application
+List<User>.. now we want to traverse the each object
+
+
+

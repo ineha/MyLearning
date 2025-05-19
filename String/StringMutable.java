@@ -35,6 +35,13 @@ public class StringMutable {
         //because new s ek bar memory allocate ho gyi h to s6 wala s5 ko pint kregaa
         System.out.println(s5==s6);
         System.out.println(s5.equals(s6));
+        String a = "Neha";
+        String b = "Neha";
+        //a="subhi";
+        System.out.println(a==b);
+        String k = new String("Neha");
+        String l = new String("Neha");
+        System.out.println(k==l);
     }
 
 }

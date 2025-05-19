@@ -1,0 +1,6 @@
+A marker interface in jva is a intefrcae in which no methods and no fields. In other words it is an empty interface
+
+In java we have three interface
+1. Seriable
+2. colneble
+3. Remote
