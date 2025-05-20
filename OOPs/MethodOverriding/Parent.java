@@ -24,7 +24,7 @@ class B extends A{
     //Co-varient return type are allowed
     //child class k accessbility km ni kr skte, brabar rkho ya bdha do.
     @Override
-     public B methodOfParent(){
+    public B methodOfParent(){
         System.out.println("I am method of child");
 
         return new B();

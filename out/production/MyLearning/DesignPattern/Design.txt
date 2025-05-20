@@ -12,5 +12,8 @@ Categorization of design patter:
     Adapter
 3. Behavioural Design pattern
 
+IteratorDesign pattern -> suppose you are maintaing list of users in your application
+List<User>.. now we want to traverse the each object
+
 
 
