@@ -1,0 +1,11 @@
+class -> A class is blue print for creating objects. it defines the structure (fields) adn behaviour (methods) of objects
+class car{
+    int color;
+    int shape;
+    void drive(){
+
+    }
+}
+4 pillars of OOPS:
+a. Encapsulation - Encapsulation is a process of bundling variables and methods that operates on the data into a single unit(class).
+b. Inheritence - it allows a class to aquire properties od another class. it supports code reusbalitiy.

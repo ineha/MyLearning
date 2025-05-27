@@ -11,6 +11,7 @@ public class ImplementationOfAbstractClass extends AbstractClass {
         public static void main(String[] args) {
             AbstractClass myClass = new ImplementationOfAbstractClass();
             myClass.rocket();
+            myClass.cal();
         }
     }
 

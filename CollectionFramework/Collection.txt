@@ -2,3 +2,19 @@ Collection ->A group of individual objects which are represented as s single uni
 Framework -> A framework is a set of classes and interfaces which provide ready-made architecture
 
 Collection Framework --> collection framework is java API(classes and interfaces) which provides architecture to store and manipulate group of objects
+map vs flatMap
+map -> transform it to another stream
+flatMap -> operation has the effect of applying a one-to-many transformation to the elements of the stream,
+and then flattening the resulting elements into a new stream.
+
+Function: To transform arguments in returnable value.
+
+Predicate: To perform a test and return a Boolean value. -> boolean condition -> intermediate operation
+
+Consumer: Accept arguments but do not return any values. -> forEach Terminal Operation
+
+Supplier: Do not accept any arguments but return a value. -> collect
+
+Operator: Perform a reduction type operation that accepts the same input types.
+
+3. What are some standard Java pre-defined functional interfaces?

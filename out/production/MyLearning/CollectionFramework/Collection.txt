@@ -2,3 +2,5 @@ Collection ->A group of individual objects which are represented as s single uni
 Framework -> A framework is a set of classes and interfaces which provide ready-made architecture
 
 Collection Framework --> collection framework is java API(classes and interfaces) which provides architecture to store and manipulate group of objects
+map vs flatMap
+map -> transform it to another stream
