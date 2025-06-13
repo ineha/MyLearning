@@ -15,6 +15,10 @@ public class MapExample {
         for (String key:map.keySet()){
             System.out.println(map.get(key));
         }
+//        for (Map.Entry<String, Integer> key:map.entrySet()){
+//            System.out.println("inside map");
+//            System.out.println(map.entrySet());
+//        }
         map.forEach((Key,value)->{
             System.out.print(Key);
             System.out.println(value);

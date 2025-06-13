@@ -1,5 +1,6 @@
 package CollectionFramework;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -12,7 +13,17 @@ public class MapAndFlatMap {
         List<Employee> employees = Arrays.asList(e1, e2, e3);
         employees.stream().map(Employee::getName).forEach(System.out::println);
         employees.stream().flatMap(employee -> employee.getLocation().stream()).collect(Collectors.toSet()).forEach(System.out::println);
+
+  final List<Integer> list = new ArrayList<>();
+  list.add(1);
+  list.add(2);
+  list.add(3);
+  list.remove(1);
+        System.out.println(list);
+//        list = new ArrayList<>(); if we added final we cannot reassign it
     }
+
+
 
     //Map -> transforms it to another stream
     //flatMap ->

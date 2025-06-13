@@ -42,6 +42,8 @@ public class DataType {
         name = name.toUpperCase();
         System.out.println(name);
         System.out.println(name2 == name);//it will print false as we moved reerence of name to other memory
+        String s = "babad";
+        System.out.println(s.substring(0,2));
 
     }
 }
